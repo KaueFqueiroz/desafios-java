@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Main {
+public class MainLanchonete {
     public static void main(String[] args) {
 
         List<Pedido> pedidos = new ArrayList<>();
