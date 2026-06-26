@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bb32409-f016-4b8e-9ea9-e4dc9766c41f" name="Changes" comment="docs: atualizar README com desafio 03">
-      <change afterPath="$PROJECT_DIR$/src/desafio04/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafio04/Avaliavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafio04/MainEscola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafio04/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafio04/Professor.java" afterDir="false" />
+    <list default="true" id="2bb32409-f016-4b8e-9ea9-e4dc9766c41f" name="Changes" comment="docs: atualizar READMEME com desafio 04">
+      <change afterPath="$PROJECT_DIR$/src/desafio05/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafio05/MainContaBancaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.MainContaBancaria.executor": "Run",
     "Application.MainEscola.executor": "Run",
     "Application.MainPagamentos.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -60,7 +59,20 @@
     "onboarding.tips.debug.path": "C:/Users/Kaue/Desktop/desafios-java/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainEscola">
+  <component name="RunManager" selected="Application.MainContaBancaria">
+    <configuration name="MainContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafio05.MainContaBancaria" />
+      <module name="desafios-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafio05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainEscola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desafio04.MainEscola" />
       <module name="desafios-java" />
@@ -89,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainContaBancaria" />
         <item itemvalue="Application.MainEscola" />
         <item itemvalue="Application.MainPagamentos" />
       </list>
@@ -126,12 +139,30 @@
       <option name="project" value="LOCAL" />
       <updated>1782263337216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: desafio 04 sistema de escola com herança e interfaces">
+      <option name="closed" value="true" />
+      <created>1782427456989</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782427456990</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docs: atualizar READMEME com desafio 04">
+      <option name="closed" value="true" />
+      <created>1782427520538</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1782427520538</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: desafio 03 sistema de pagamentos com interfaces" />
     <MESSAGE value="docs: atualizar README com desafio 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: atualizar README com desafio 03" />
+    <MESSAGE value="feat: desafio 04 sistema de escola com herança e interfaces" />
+    <MESSAGE value="docs: atualizar READMEME com desafio 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: atualizar READMEME com desafio 04" />
   </component>
 </project>
