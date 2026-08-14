@@ -50,6 +50,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.MainContaBancaria.executor": "Run",
+    "Application.MainDesafio09.executor": "Run",
     "Application.MainEscola.executor": "Run",
     "Application.MainPagamentos.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -68,13 +69,26 @@
     "onboarding.tips.debug.path": "C:/Users/Kaue/Desktop/desafios-java/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainContaBancaria">
+  <component name="RunManager" selected="Application.MainDesafio09">
     <configuration name="MainContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desafio05.MainContaBancaria" />
       <module name="desafios-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="desafio05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDesafio09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafio09.MainDesafio09" />
+      <module name="desafios-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafio09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDesafio09" />
         <item itemvalue="Application.MainContaBancaria" />
         <item itemvalue="Application.MainEscola" />
         <item itemvalue="Application.MainPagamentos" />

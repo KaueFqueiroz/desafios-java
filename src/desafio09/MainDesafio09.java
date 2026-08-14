@@ -33,7 +33,23 @@ public class MainDesafio09 {
                 .forEach(System.out::println);
 
         // 3. soma total — falta implementar
+
+        System.out.println("-- Somar Valor do Estoque Inteiro -- ");
+
+        double somaTotal = produtos.stream()
+                .filter(produto -> produto.getPreco() > 0)
+                .map(produto -> produto.getPreco())
+                .reduce(0.0, (soma, valorAtual) -> soma + valorAtual);
+
+        System.out.println(somaTotal);
+
         // 4. produto mais caro — falta implementar
+        double maisCaro = produtos.stream()
+                .filter(produto -> produto.getPreco() > 0)
+                .map(produto -> produto.getPreco())
+                .reduce(0.0, (maiorValor, valorAtual) -> valorAtual += maiorValor);
+
+
         // 5. ordenar por preço — falta implementar
     }
 }
