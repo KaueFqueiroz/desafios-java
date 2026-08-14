@@ -28,4 +28,8 @@ public class MainContaBancaria2 {
             System.out.println("Erro no depósito: " + e.getMessage());
         }
     }
+
+    static void somarPrecos(){
+
+    }
 }
