@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb32409-f016-4b8e-9ea9-e4dc9766c41f" name="Changes" comment="docs: atualizar READMEME com desafio 04">
-      <change afterPath="$PROJECT_DIR$/src/desafio05/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafio05/MainContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafio09_desafio10/CatalogoProdutos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio09/MainDesafio09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio09_desafio10/MainDesafio09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio09/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio09_desafio10/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MainContaBancaria.executor": "Run",
-    "Application.MainDesafio09.executor": "Run",
-    "Application.MainEscola.executor": "Run",
-    "Application.MainPagamentos.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Usuário/Desktop/desafios-java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Kaue/Desktop/desafios-java/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainContaBancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainDesafio09.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainEscola.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainPagamentos.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuário/Desktop/desafios-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Kaue/Desktop/desafios-java/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.MainDesafio09">
     <configuration name="MainContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desafio05.MainContaBancaria" />
@@ -84,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="MainDesafio09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desafio09.MainDesafio09" />
+      <option name="MAIN_CLASS_NAME" value="desafio09_desafio10.MainDesafio09" />
       <module name="desafios-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desafio09.*" />
+          <option name="PATTERN" value="desafio09_desafio10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
