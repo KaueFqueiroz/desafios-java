@@ -1,8 +1,7 @@
-package desafio09;
+package desafio09_desafio10;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class MainDesafio09 {
     public static void main(String[] args) {
@@ -59,5 +58,24 @@ public class MainDesafio09 {
                 .forEach(produto -> System.out.println(produto.getNome() + " - R$ " + produto.getPreco()));
 
 
+        System.out.println();
+
+
+        // Desafi0 10 - OPTIONAL
+
+        // 1. Buscar por nome e retornar Optional
+
+        System.out.println("-- Busca por nome --");
+
+
+        CatalogoProdutos catalogo = new CatalogoProdutos(produtos);
+
+        catalogo.buscarPorNome("Mouse")
+                .ifPresent(produto -> System.out.println(produto.getNome()));
+
+        System.out.println();
+        System.out.println("-- Buscar o Produto mais barato com OPTION -- " );
+
+        catalogo.buscarMaisBarato("Vestiario");
     }
 }
