@@ -24,4 +24,10 @@ public class CatalogoProdutos {
                 .filter(produto -> produto.getCategoria().equals(categoria))
                 .min((p1,p2 ) -> Double.compare(p1.getPreco(), p2.getPreco()));
     }
+
+    public Optional<Produto> buscarPorPrecoMaximo(Double precoMax){
+        return produtos.stream()
+                .filter(produto -> produto.getPreco() <= precoMax)
+                .findFirst();
+    }
 }

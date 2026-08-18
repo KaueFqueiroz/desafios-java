@@ -63,17 +63,30 @@ public class MainDesafio09 {
 
         // Desafi0 10 - OPTIONAL
 
-        // 1. Buscar por nome e retornar Optional
-
-        System.out.println("-- Busca por nome --");
-
-
         CatalogoProdutos catalogo = new CatalogoProdutos(produtos);
 
+        // 1. Buscar Produto que existe
+
+        System.out.println("-- Busca por nome --");
         catalogo.buscarPorNome("Mouse")
-                .ifPresent(produto -> System.out.println(produto.getNome()));
+                .ifPresent(produto -> System.out.println("Encontrado: " + produto.getNome()));
 
         System.out.println();
+
+        // 2. Buscar um Produto que não existe
+
+        System.out.println("-- Busca por um nome Inexistente --");
+        try{
+            catalogo.buscarPorNome("Gabinete")
+                    .orElseThrow(() -> new RuntimeException("Não encontrado"));
+        } catch (RuntimeException e){
+            System.out.println("Erro: " + e.getMessage());
+        }
+
+
+
+        System.out.println();
+
         System.out.println("-- Buscar o Produto mais barato com OPTION -- " );
 
         catalogo.buscarMaisBarato("Vestiario");
