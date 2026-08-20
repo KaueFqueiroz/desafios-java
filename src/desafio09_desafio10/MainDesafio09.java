@@ -83,12 +83,22 @@ public class MainDesafio09 {
             System.out.println("Erro: " + e.getMessage());
         }
 
+        System.out.println();
+
+        // Mais barato de uma Categoria
+        System.out.println("-- Mais barato da categoria Moveis --");
+        catalogo.buscarMaisBarato("Moveis")
+                .ifPresent(produto -> System.out.println(produto.getNome() + " - R$" + produto.getPreco()));
 
 
         System.out.println();
 
-        System.out.println("-- Buscar o Produto mais barato com OPTION -- " );
+        // 4. orçamento sem resultado
+        System.out.println("-- Busca por orçamento de R$10 --");
+        Produto resultado = catalogo.buscarPorPrecoMaximo(10.0)
+                .orElse(new Produto("Nenhum produto encontrado", 0, ""));
+        System.out.println(resultado.getNome());
 
-        catalogo.buscarMaisBarato("Vestiario");
+
     }
 }
